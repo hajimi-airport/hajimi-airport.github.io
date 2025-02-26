@@ -1,1 +1,1 @@
-# hajimi-airport.github.io
+# 热烈庆祝哈基米与Github达成全球战略合作伙伴！
