@@ -1,0 +1,115 @@
+<style type="text/css">
+p{ line-height:30px; }
+hr{ background-color:#eee;border:0px; height:1px;overflow:hidden; margin:'10px 0' }
+li{ line-height:30px; }
+</style>
+<p><h3 id="wtf"><b>🤔 什么是私有寻址路由？它能解决什么问题？</b></h3></p>
+<p>
+    寻址路由是用户客户端查找节点服务器真实IP地址的服务端专用服务程序，它能够通过DNS系统中的映射关系找到对应的节点服务器并使客户端进行有效链接（“被墙”通常是指这层映射关系被第三方通过不正当手段进行欺骗性替换导致用户客户端不能连接到正确的节点服务器，有时也叫“DNS欺诈”或大面积“DNS污染”，更低级无趣的攻击方法叫做“我已经盯你很久了！我去告诉老师！”）。
+</p>
+<p>
+    一般来说，所有场子都会提供公共的寻址路由发布到订阅中，使用户能够连接节点服务器。但，这样做的坏处就是映射关系被广而告之，从而被有心者利用甚至招致低级趣味攻击。
+</p>
+<p>
+    伴随着这些低级趣味者的骚扰，私有寻址路由is comming！
+</p>
+<p>
+    私有寻址路由，由场子提供插槽式服务端路由程序服务，由用户提供自己的节点寻址域名，就像著名的RSA非对称算法一样，双方各持信物，对接后即可正常运行，且完全排除公开信物的干扰因素，让第三方玩儿蛋儿去吧。
+</p>
+<p>
+    私有寻址路由还有更多好处，比如解决节点服务器因为一个节点域流量过大导致监测异常被墙的情况（某种程度上从外部看起来相当于专属节点服务器）等等，有待咱们继续发掘。
+</p>
+<hr />
+<p><h3><b>🤔 什么情况下需要使用私有寻址路由？</b></h3></p>
+<p>
+    在你不能正常使用公共路由线路的时候（包括节点全红、特殊地理区域等情况），可以尝试使用私有寻址路由。
+</p>
+<hr />
+<p><h3><b>🤔 我想使用私有寻址路由，我该怎么做？</b></h3></p>
+<p>
+    <b>第一步：拥有一个你自己的域名</b>
+</p>
+<p>
+    你可以去任何售卖域名的平台购买一个域名，比如Godaddy、Cloudflare、Spaceship、Namecheap等，域名的价格高低不一，但咱们使用的是功能，无需价格过高，推荐使用Cloudflare（因目前对Cloudflare支持较好，且路由适配模块也原生支持，避免部分平台不支持某些DNSSEC等安全算法功能）。
+</p>
+<p>
+    <b>第二步：将域名迁移至Cloudflare的名称服务器进行托管（若为Cloudflare平台购买则跳过此步）</b>
+</p>
+<p>
+    2.1 <a href="https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/" target="_blank">[文档] Cloudflare原始操作文档：Change your nameservers (Full setup)</a>
+</p>
+<p>
+    <div>
+    2.2 <a href="https://www.youtube.com/watch?v=TngeYJmp5pU" target="_blank">[视频] 油管视频教程：How To Setup Cloudflare With GoDaddy Domain - Full Guide</a>
+    </div>
+    <div style="color:#999;">（以上视频教程案例以Godaddy为例，可自行搜索其他域名提供商的教程案例）</div>
+</p>
+<p>
+    <div>
+    2.3 <a href="https://www.youtube.com/watch?v=oL0lPkyiyx4" target="_blank">[视频] 油管视频教程：How to Enable DNSSEC for GoDaddy Domain with CloudFlare DNS</a>
+    </div>
+    <div style="color:#f00;">（对域名启用DNSSEC签名保护，这一步很重要）</div>
+</p>
+<p>
+    <b>第三步：创建和获取域名的Cloudflare"区域ID"和API Token密钥</b>
+</p>
+<p>
+    <div>
+    <a href="https://developers.cloudflare.com/fundamentals/api/get-started/create-token/" target="_blank">[文档] Cloudflare原始操作文档：Create an API token</a>
+    </div>
+    <div style="color:#999;">（创建Cloudflare的API Token，建议仅对域名创建可读写权限的API Token）</div>
+</p>
+<p>
+    <b>第四步：使用你的域名、Cloudflare的区域ID、API Token创建私有寻址路由</b>
+</p>
+<p>
+    <img src="/docs/1090-1.png" style="width:100%;height:auto;"/>
+</p>
+<p>
+    点击"创建私有寻址"按钮，打开操作面板，依次填入你的域名、cloudflare区域ID、API Token三项配置项，点击添加后等待系统后台进行安装。
+</p>
+<p>
+    <img src="/docs/1090-3.png" style="width:100%;height:auto;"/>
+</p>
+<p>
+    安装成功后，你可以在仪表盘中的一件订阅处，切换并使用你的私有路由啦。
+</p>
+<hr />
+<p style="color:#f00">
+    （注：私有路由采取轮询工作机制，最长需要等待1个小时即可上岗工作，在刚安装私有路由后，你需要最多等待1个小时即可正常使用。）
+</p>
+<p style="color:#f00">
+    （注：由于私有路由为创新型功能模块，目前仍处于测试阶段，如有任何包括域名配置等问题，可联系管理员代为操作。）
+</p>
+<hr />
+<p><h3><b>🤔 有哪些事项需要注意？</b></h3></p>
+<p>
+    <b>1.对于中文域名该怎么配置？</b>
+</p>
+<p>
+    对于中文域名的使用配置，请先将域名转换为punycode编码后填入配置即可。
+</p>
+<p>
+    <b>2.安装成功后，怎么更新订阅还是节点全红？</b>
+</p>
+<p>
+    私有寻址路由工作周期为1个小时，也就意味你的私有路由在安装成功后，若没有任何问题的情况下最多1个小时内将生效。
+</p>
+<p>
+    <b>3.若不设置DNSSEC，有什么影响？</b>
+</p>
+<p>
+    DNSSEC是一项保护域名免受第三方欺骗攻击的措施，如果不设置DNSSEC，你的域名很容易会发生各种莫名其妙的不正确寻址，从而导致节点全红现象出现。
+</p>
+<p>
+    <b>4.若启用了私有路由配置，在那里可以切换到私有路由配置？</b>
+</p>
+<p>
+    在正确配置私有路由并生效后，你可以在仪表盘中一键订阅处切换到该私有路由上。（若删除私有路由配置，也请及时切换到其他路由上。）
+</p>
+<p>
+    <b>5.这个设置太复杂了，我虽然想要用但是不知道该怎么办。</b>
+</p>
+<p>
+    请联系TG管理员协助配置。
+</p>

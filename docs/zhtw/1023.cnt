@@ -1,0 +1,53 @@
+<style type="text/css">
+p{ line-height:25px; }
+hr{ background-color:#eee;border:0px; height:1px;overflow:hidden; margin:'20px 0' }
+li{ line-height:30px; }
+h3{ padding-top:15px;}
+.fpink{color:#e83e8c;background-color:#f5f5f5;}
+.timeout{color:#db4b4b;}
+.green{color:#14a014;}
+.docimg{width:100%;max-width:800px}
+.attention{background-color:#ffefd1;color:#855c0d;padding:10px 20px;display:block;border-radius:4px;}
+</style>
+<p><h3><b>注意：风险警告</b></h3></p>
+<p>
+*我们已取消提供Apple ID，需要您自行解决软件下载问题<br/>
+我们提供的ID为共享ID，登录风险需您自行承担<br/>
+切勿登录iCloud，仅可登录APP Store<br/>
+如果因ID问题导致设备锁定，我们无法提供任何帮助<br/>
+原则上已不再提供共享账户，如果共享账户失效请您自行购买下载应用。<br/>
+继续阅读文档代表您了解该风险
+</p>
+<hr/>
+<p><h3><b>一、概述</b></h3></p>
+<p>
+Shadowrocket（ 请注意应用名称，App Store非常多盗版，俗称“ 小火箭 ” ）<br/>
+完整支持本站订阅服务。<br/>
+由于境内地区 App Store 禁止代理应用因此已被下架，当前需要在访问境外 App Store 获取<br/>
+因此需要境外 Apple ID 方可获取下载，应用售价 $2.99 （请注意，该费用收取方为应用程式开发者）。
+</p>
+<hr/>
+<p><h3><b>二、获取AppleID</b></h3></p>
+<p>
+<b>注意：您需要自行登录非中国区 Apple ID 后，前往 App Store 下载。 如果您需要购买Apple ID，可在TG群内自行搜索AppleId共享相关群组。</b>
+</p>
+<p><span class="attention">您必须拥有有效的订阅才可以查看该区域的内容</span></p>
+<p>1.登录非中国大陆地区的Apple ID</p>
+<p>2.直达Shadowrocket页面下载：<a href="https://apps.apple.com/us/app/shadowrocket/id932747118" target="_blank">https://apps.apple.com/us/app/shadowrocket/id932747118</a></p>
+<p>3. 下载完成.</p>
+<hr/>
+<p><h3><b>三、一键订阅</b></h3></p>
+<p>此处我们将指导您使用 「 一键导入 」 方式完成配置。<br/>
+点击下方 导入Shadowrocket 即可</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$importtoshadowrocket()">
+    <span>一键导入订阅到Shadowrocket</span>
+</button>
+</p>
+<p><h3><b>四、启动Shadowrocket</b></h3></p>
+<p>1. 首页选择一个我们的接入点，然后点击顶部的开关。</p>
+<p>2. 如果是第一次使用，则会提示需要添加 VPN 连接配置。点击 允许 后按系统提示操作，验证密码或 Touch ID。</p>
+<p><img src='/docs/1023-1.jpg' class='docimg'/></p>
+<p>3. 之后会自动返回到 shadowrocket 界面，此时已完成启用。</p>
+<p><img src='/docs/1023-2.jpg' class='docimg'/></p>

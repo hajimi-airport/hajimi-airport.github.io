@@ -1,0 +1,53 @@
+<style type="text/css">
+p{ line-height:25px; }
+hr{ background-color:#eee;border:0px; height:1px;overflow:hidden; margin:'20px 0' }
+li{ line-height:30px; }
+h3{ padding-top:15px;}
+.fpink{color:#e83e8c;background-color:#f5f5f5;}
+.timeout{color:#db4b4b;}
+.green{color:#14a014;}
+.docimg{width:100%;max-width:400px}
+</style>
+<p><h3><b>一、获取应用</b></h3></p>
+</p>
+<p>可前往GITHUB自行搜索相关项目并下载最新版本应用，或使用下列按钮转到Clash For Android官方项目进行下载。</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$gotocfagithub()">
+    <span>转到GITHUB官方Clash For Android项目</span>
+</button>
+</p>
+<hr/>
+<p><h3><b>二、快速导入</b></h3></p>
+<p>
+此处我们将指导您使用 「 一键导入 」 方式完成配置。点击下方 导入 Clash For Android 即可
+</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$importtoclash()">
+    <span>一键导入到Clash客户端</span>
+</button>
+</p>
+<p>或</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$copymysubscraddr()">
+    <span>复制我的订阅地址</span>
+</button>
+</p>
+<hr/>
+<p>
+<h3>三、启动 Clash For Android 连接</h3>
+</p>
+<p>1.点击上方的一键导入。</p>
+<p>2.点击快速导入会跳转到 Clash For Android，把自动更新设置为1400分钟，并保存配置文件。</p>
+<p><img src='/docs/1021-1.png' class='docimg'/></p>
+<p>&nbsp;</p>
+<p>3.打开软件主界面，把配置勾选后返回主界面。</p>
+<p><img src='/docs/1021-2.png' class='docimg'/></p>
+<p>&nbsp;</p>
+<p>4.开启连接，点击启动，如果是第一次使用会提示你开启VPN连接，点击确定即可。</p>
+<p><img src='/docs/1021-3.png' class='docimg'/></p>
+<p>&nbsp;</p>
+<p>5.检查手机状态栏右上角，是否有一个 VPN(钥匙) 图标！</p>
+<p><img src='/docs/1021-4.png' class='docimg'/></p>

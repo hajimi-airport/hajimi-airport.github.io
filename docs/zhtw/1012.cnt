@@ -1,0 +1,57 @@
+<style type="text/css">
+p{ line-height:30px; }
+hr{ background-color:#eee;border:0px; height:1px;overflow:hidden; margin:'10px 0' }
+li{ line-height:30px; }
+</style>
+
+
+<p><h3><b>下载失败/更新失败/报错?</b></h3></p>
+<p style="color:#f00">
+    所有的订阅错误/异常/失败本质上都是你自己本地网络访问不到订阅源或CDN地址导致的。
+</p>
+<p>错误1. 手机报错io: read/write on closed pipe</p>
+<ul>
+    <li style="color:#f00">尝试使用 <a style="text-decoration:underline" href="https://www.google.com/search?q=%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2" target="_blank">订阅转换</a>（推荐，谷歌自己找适合自己的）</li>
+    <li>更换备用地址尝试</li>
+    <li>切换wifi/数据流量尝试</li>
+</ul>
+
+<p>错误2. 手机报错EOF (运营商域名阻断)</p>
+<ul>
+    <li style="color:#f00">尝试使用 <a style="text-decoration:underline" href="https://www.google.com/search?q=%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2" target="_blank">订阅转换</a>（推荐，谷歌自己找适合自己的）</li>
+    <li>部分地区特有问题(福建泉州福州、河南)</li>
+    <li>切换wifi/数据流量尝试</li>
+</ul>
+
+<p>错误3. 手机小火箭提示: 发生了SSL错误,无法建立与该服务器的安全链接</p>
+<ul>
+    <li style="color:#f00">尝试使用 <a style="text-decoration:underline" href="https://www.google.com/search?q=%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2" target="_blank">订阅转换</a>（推荐，谷歌自己找适合自己的）</li>
+    <li>你选择了不能用的节点，然后去更新新节点导致, 请使用可以用的节点, 或关闭代理.</li>
+    <li>切换wifi/数据流量尝试</li>
+</ul>
+
+
+<p>错误4. 电脑报错Network Error</p>
+<ul>
+    <li style="color:#f00">尝试使用 <a style="text-decoration:underline" href="https://www.google.com/search?q=%E8%AE%A2%E9%98%85%E8%BD%AC%E6%8D%A2" target="_blank">订阅转换</a>（推荐，谷歌自己找适合自己的）</li>
+    <li>切换wifi/数据流量尝试</li>
+    <li>如果你开系统代理了, 请检查你的代理是否可用, 否则会报此错误.</li>
+    <li>如果你是新用户, 删除默认的config.yaml 后再尝试下载 (步骤: 侧栏 → 第三个Profiles选项 → 右键config.yaml → 选最后一个Delete) （如果下载订阅后又出现它了. 没有出现"{PROJNAME}". 可理解为下载失败的意思.）</li>
+</ul>
+
+
+
+<p><h3><b>所有节点无法连接，全部显示红色Timeout</b></h3></p>
+<p style="color:#f00">
+    导致该问题的原因是节点服务器遭遇了域名污染、被地区运营商阻断连接了。
+</p>
+<ul>
+    <li>非主流客户端，推荐使用Clash、Shadowrocket，默认配置即可。</li>
+    <li>先检查自己的分流规则配置是否正确，默认情况下订阅输出的节点信息是正常的（如果自己不懂分流规则配置，建议不要尝试去编辑或从网上下载来路不明的配置如去广告之类的，除非你很懂）</li>
+    <li style="color:#f00">在仪表盘面板“一键订阅”中最下方按钮“切换备用线路”，进入后点击切换到备用线路，切换成功后，在你的客户端内刷新订阅地址即可（注意切换后会进行DNS寻址，请耐心等待1-3分钟）。</li>
+    <li>若尝试了所有的备用线路都不能解决问题，请发工单或TG联系管理员</li>
+</ul>
+<p>&nbsp;</p>
+<p>
+以上步骤能解决99%的问题，如果仍然存在问题，请提交工单或TG联系管理员处理。
+</p>

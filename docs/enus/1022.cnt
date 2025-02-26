@@ -1,0 +1,53 @@
+<style type="text/css">
+p{ line-height:25px; }
+hr{ background-color:#eee;border:0px; height:1px;overflow:hidden; margin:'20px 0' }
+li{ line-height:30px; }
+h3{ padding-top:15px;}
+.fpink{color:#e83e8c;background-color:#f5f5f5;}
+.timeout{color:#db4b4b;}
+.green{color:#14a014;}
+.docimg{width:100%;max-width:800px}
+</style>
+<p><h3><b>一、获取应用</b></h3></p>
+<p>可前往GITHUB自行搜索相关项目并下载最新版本应用，或使用下列按钮转到Clash For Windows官方项目进行下载。</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$gotocfwgithub()">
+    <span>转到GITHUB官方Clash For Windows项目</span>
+</button>
+</p>
+<hr/>
+<p><h3><b>二、快速导入</b></h3></p>
+<p>
+此处我们将指导您使用 「 一键导入 」 方式完成配置。点击下方 导入 Clash For Windows 即可
+</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$importtoclash()">
+    <span>一键导入到Clash客户端</span>
+</button>
+</p>
+<p>或</p>
+<p>
+<button class="css-dev-only-do-not-override-kqecok ant-btn ant-btn-primary"
+    onclick="window.$copymysubscraddr()">
+    <span>复制我的订阅地址</span>
+</button>
+</p>
+<hr/>
+<p>
+<h3><b>三、启动 Clash For Windows 连接</b></h3>
+</p>
+<p>1.返回到初始界面 General，并且打开系统连接！</p>
+<p>2.Sytem Proxy 即为代理开关</p>
+<p>3.如果Sytem Proxy开关已经打开，此时已经可以使用本站提供的服务了</p>
+<p><img src='/docs/1022-3.jpg' class='docimg'/></p>
+
+<hr/>
+<p>
+<h3><b>四、开启分流/更新订阅</b></h3>
+</p>
+
+<p>1.开启分流： 电脑右下角 找到clash图标(一个小猫咪)，鼠标右键依次选择 > Proxy Mode > Rule</p>
+<p>2.更新订阅：如下图</p>
+<p><img src='/docs/1022-4.jpg' class='docimg'/></p>

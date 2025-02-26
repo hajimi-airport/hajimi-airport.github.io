@@ -1,0 +1,47 @@
+<style type="text/css">
+p{ line-height:25px; }
+hr{ background-color:#eee;border:0px; height:1px;overflow:hidden; margin:'20px 0' }
+li{ line-height:30px; }
+h3{ padding-top:15px;}
+.fpink{color:#e83e8c;background-color:#f5f5f5;}
+.timeout{color:#db4b4b;}
+.green{color:#14a014;}
+</style>
+<h3>
+    <strong>建议收藏本站网址，防止失联</strong>
+</h3>
+<p>
+节点绿色, 有延迟, 即表示可用, 不可用绝大多数原因是代理配置有问题, 或者浏览器装了代理插件所致, 和节点服务器无关.
+<br>
+友情提示: 延迟低≠速度肯定快, 软件内通了就肯定能用
+</p>
+<hr/>
+<p>
+<h3><b>节点全部超时(<span class="timeout">timeout/红色</span>)的情况:</b></h3>
+</p>
+<p>① 核对时间 打开这个网址 (<a href="http://time.is/" target="_blank">http://time.is/</a>) 误差不超过30s. 其他时间网站也可.保证系统时间正确.</p>
+<p>② 更新订阅 (更新教程 ↓ 其他软件同理)</p>
+<ul>
+    <li>clash电脑版: Profiles → {PROJNAME} → 点击旋转符号</li>
+    <li>clash手机版: 配置 → 右边的三个小点点 → 更新</li>
+    <li>提示: 无法更新或Network Error等问题, 请看使用文档第一篇对此问题有详细说明</li>
+</ul>
+<p>③ 登录官网 查看你的订阅是不是到期/流量不足</p>
+<p>④ 新购买套餐/重置订阅链接/流量用完后重置流量包. 节点有1~3分钟数据同步延迟.请等待.</p>
+<p>⑤ 更新软件到新版 (如果是苹果,请确认软件是2022年及以后的版本)</p>
+<p>⑥ 有用户反馈斐讯路由器不兼容.(存疑) 其他路由器无问题.</p>
+<p>⑦ 公司网络等特殊网络环境禁止访问境外. 买vip套餐. 或者用数据网络/家庭宽带</p>
+<p>⑧ 用手机+数据流量测试. 网络问题等与节点服务器无关.</p>
+<p>重置订阅地址后出现各种问题请看最下方的"特殊问题"</p>
+<hr/>
+<h3><b>节点未超时(<span class="green">有延迟/绿色</span>)的情况:</b></h3>
+<p>⑨ v2rayNG不能用, 但是电脑和手机的clash可以用, 电脑的v2rayN可以用. 请在v2rayNG设置中第7项 "VPN DNS"中的1.1.1.1换成https://cloudflare-dns.com/dns-query 或其他doh地址</p>
+<p>⑩ 检查代理模式 如果改用全局模式(Global). 请手动选择一个下面的国家地区节点.</p>
+<p>不是问题的问题: 选了无法使用的节点</p>
+<hr/>
+<h3><b><span class="fpink">特殊问题: </span>重置订阅地址后出现各种问题.</b></h3>
+<p><span class="fpink">举例1: </span>重置订阅地址后, 电脑使用正确订阅, 但是手机使用错误的订阅会触发防攻击, 导致电脑和手机无法翻墙. (整个WiFi下的所有设备都被屏蔽60秒)</p>
+<p><span class="fpink">举例2: </span>重置订阅地址后, 电脑的clash使用了新订阅, 但是v2rayN使用旧订阅. 也会触发防攻击, 导致电脑无法翻墙. (整个WiFi下的所有设备都被屏蔽60秒)</p>
+<p><span class="fpink">举例x: </span>同理. 所以, 没事别重置订阅. 如何避免发生? 同一网络下的所有设备都使用正确的订阅即可.</p>
+<p><span class="fpink">提示: 手机 + 数据流量 + 不是很旧的软件 = 99.99%可以使用.</span></p>
+<p>其他无法使用的问题全都在以上内容.</p>
