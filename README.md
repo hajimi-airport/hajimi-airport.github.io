@@ -1,7 +1,6 @@
 # 热烈庆祝哈基米与Github达成全球战略合作伙伴！
 
 # 最新官网网址：[hajimi.one](https://a.hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2)
----
 
 ## 历史网址：
 
@@ -30,7 +29,7 @@ hajimi-airport
 ## 折扣码
 
 ```bash
-**hajimi666**
+hajimi666
 ```
 
 ## AFF设置
