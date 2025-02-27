@@ -1,0 +1,1 @@
+window.dynamicaddr = "hajimi.icu"
