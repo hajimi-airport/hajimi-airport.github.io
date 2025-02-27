@@ -1,1 +1,1 @@
-window.dynamicaddr = "hajimi.icu"
+window.dynamicaddr = "hajimi.one"
