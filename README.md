@@ -8,7 +8,7 @@
 |----|----|----|
 |✅|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.one**</a>|**在用，最新**|
 |✅|<a href="https://hajimi.icu/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.icu**</a>|**在用**|
-|❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.one~~</a>|~~已弃用~~|
+|❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.online~~</a>|~~已弃用~~|
 |❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.us~~</a>|~~被攻陷，已弃用~~|
 
 ## Github查询方式
