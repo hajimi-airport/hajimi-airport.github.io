@@ -1,26 +1,27 @@
 # 热烈庆祝哈基米与Github达成全球战略合作伙伴！
 
-# 最新官网网址：[hajimi.one](https://a.hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2)
+## 最新官网网址：<a href="https://a.hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">hajimi.one</a>
 
-## 历史网址：
+## 历史网址
 
 ||网址|状态|
 |----|----|----|
-|✅|[**hajimi.one**](https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2)|在用，最新|
-|✅|[**hajimi.icu**](https://hajimi.icu/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2)|**在用**|
-|❌|[~~hajimi.online~~](https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2)|~~已弃用~~|
-|❌|[~~hajimi.us~~](https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2)|~~被攻陷，已弃用~~|
+|✅|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.one**</a>|**在用，最新**|
+|✅|<a href="https://hajimi.icu/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.icu**</a>|**在用**|
+|❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.one~~</a>|~~已弃用~~|
+|❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.us~~</a>|~~被攻陷，已弃用~~|
 
-## Github查询方式：
+## Github查询方式
 
-打开github.com，在顶部搜索栏中搜索一下代码
+打开 <a href="https://github.com" target="_blank">github.com</a> 首页，在顶部搜索栏中搜索以下代码
 
 ```bash
 hajimi-airport
 ```
+
 ## Github梦幻联动
 
-> Github梦幻联动网址：[hajimi-airport.github.io](https://hajimi-airport.github.io/)
+> Github梦幻联动网址：<a href="https://hajimi-airport.github.io/" target="_blank">**hajimi-airport.github.io**</a>
 
 ## 简介
 
