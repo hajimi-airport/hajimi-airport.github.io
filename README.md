@@ -6,10 +6,10 @@
 
 ||网址|状态|
 |----|----|----|
-|✅|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.one**</a>|**在用，最新**|
-|✅|<a href="https://hajimi.icu/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.icu**</a>|**在用**|
-|❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.online~~</a>|~~已弃用~~|
-|❌|<a href="https://hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.us~~</a>|~~被攻陷，已弃用~~|
+|✅|<a href="https://a.hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.one**</a>|**在用，最新**|
+|✅|<a href="https://a.hajimi.icu/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">**hajimi.icu**</a>|**在用**|
+|❌|<a href="https://a.hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.online~~</a>|~~已弃用~~|
+|❌|<a href="https://a.hajimi.one/9133b12e70e844549e90c5f929b1ed6b/OGE5MzM2" target="_blank">~~hajimi.us~~</a>|~~被攻陷，已弃用~~|
 
 ## Github查询方式
 
@@ -21,7 +21,7 @@ hajimi-airport
 
 ## Github梦幻联动
 
-> Github梦幻联动网址：<a href="https://hajimi-airport.github.io/" target="_blank">**hajimi-airport.github.io**</a>
+> Github梦幻联动网址：<a href="https://hajimi-airport.github.io" target="_blank">**hajimi-airport.github.io**</a>
 
 ## 简介
 
@@ -35,7 +35,7 @@ hajimi666
 
 ## AFF设置
 
-|返水率|循环返利|D0结算|
+|返金率|循环返利|D0结算|
 |----|----|----|
 |**30%**|✅**支持**|✅**支持**|
 
